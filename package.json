@@ -4,7 +4,7 @@
   "description": "array reduce from the right for the browser and node.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nathanfaucett/arrayReduceRight.git"
+    "url": "https://github.com/nathanfaucett/array-reduce_right.git"
   },
   "main": "src/index.js",
   "scripts": {
@@ -14,8 +14,8 @@
     "test-browser-local": "zuul --local 8080 --ui tape -- ./test"
   },
   "keywords": [
-    "arrayReduceRight",
-    "arrayReduceRight.js"
+    "array-reduce_right",
+    "array-reduce_right.js"
   ],
   "author": "Nathan Faucett",
   "license": "MIT",

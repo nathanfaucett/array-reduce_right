@@ -1,3 +1,6 @@
+var isUndefined = require("@nathanfaucett/is_undefined");
+
+
 module.exports = arrayReduceRight;
 
 
@@ -6,7 +9,7 @@ function arrayReduceRight(array, callback, initialValue) {
         value = initialValue,
         i;
 
-    if (value === undefined) {
+    if (isUndefined(value)) {
         i = length - 1;
         value = array[i];
     } else {
